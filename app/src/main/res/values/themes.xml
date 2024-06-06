@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CalculatorLogin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/green</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green</item>
+        <item name="colorSecondaryVariant">@color/green</item>
+        <item name="colorOnSecondary">@color/green</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="colorControlActivated">@color/green</item>
+        <item name="colorControlNormal">@color/grey</item>
+    </style>
+
+    <style name="btn_cal">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:top">3dp</item>
+        <item name="android:left">3dp</item>
+        <item name="android:right">3dp</item>
+        <item name="android:bottom">3dp</item>
+    </style>
+</resources>
